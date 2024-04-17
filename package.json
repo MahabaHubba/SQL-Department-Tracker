@@ -1,0 +1,18 @@
+{
+  "name": "employee-database-cli",
+  "version": "1.0.0",
+  "description": "A command-line application for managing a company's employee database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.0",
+    "mysql2-promise": "^0.1.4"
+  }
+}
